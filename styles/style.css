@@ -86,7 +86,7 @@ ol {
   display: flex;
   flex-direction: column;
 
-  inline-size: 418px;
+  inline-size: 420px;
   block-size: 100%;
 
   gap: 26px;
