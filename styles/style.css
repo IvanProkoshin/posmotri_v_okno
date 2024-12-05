@@ -143,8 +143,13 @@ ol {
   outline: none;
 }
 
+.search-form__textfield:focus-visible {
+  border: none;
+  outline: none;
+}
+
 .search-form__label:has(.search-form__textfield:focus-visible) {
-  outline-offset: 2px;
+  outline-offset: 1px;
   outline: 1px solid rgb(255, 255, 255);
 }
 
