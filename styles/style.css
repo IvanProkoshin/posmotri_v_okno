@@ -63,6 +63,7 @@ ol {
 
   max-inline-size: 711px;
   block-size: 100%;
+  padding-bottom: 2px;
 }
 
 .result__video-container {
@@ -88,8 +89,6 @@ ol {
 .content__details {
   display: flex;
   flex-direction: column;
-
-  block-size: 100%;
 
   gap: 26px;
 }
@@ -156,7 +155,7 @@ ol {
   display: flex;
   gap: 15px;
 
-  padding-bottom: 6px;
+  padding-bottom: 5px;
 }
 
 .search-form__label-text {
@@ -271,9 +270,10 @@ ol {
   display: flex;
   flex-direction: column;
 
-  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
 
-  inline-size: 100%;
+  inline-size: 399px;
   block-size: 295px;
 
   padding: 0;
@@ -325,7 +325,8 @@ ol {
   flex-direction: column;
   gap: 6px;
 
-  inline-size: 200px;
+  max-inline-size: 200px;
+  padding-left: 2px;
 }
 
 .content__video-card-title {
@@ -336,7 +337,6 @@ ol {
   text-transform: uppercase;
 
   padding-top: 3px;
-  padding-left: 2px;
 
   overflow: hidden;
   white-space: nowrap;
@@ -348,8 +348,6 @@ ol {
   font-weight: 400;
   font-size: 18px;
   line-height: 90%;
-
-  padding-left: 2px;
 }
 
 .content__video-card-thumbnail {
